@@ -107,8 +107,8 @@ class DigitalTimer extends Component {
   renderTimerController = () => {
     const {isTimerRunning} = this.state
     const startOrPauseImageUrl = isTimerRunning
-      ? 'https://assets.ccbp.in/frontend/react-js/play-icon-img.png'
-      : 'https://assets.ccbp.in/frontend/react-js/pause-icon-img.png'
+      ? 'https://assets.ccbp.in/frontend/react-js/pause-icon-img.png'
+      : 'https://assets.ccbp.in/frontend/react-js/play-icon-img.png'
     const startOrPauseAltText = isTimerRunning ? 'pause icon' : 'play icon'
 
     return (
